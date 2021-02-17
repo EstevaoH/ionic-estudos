@@ -1,0 +1,7 @@
+{
+  "name": "cloneNubak",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

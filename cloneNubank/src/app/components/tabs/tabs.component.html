@@ -1,0 +1,18 @@
+<!-- <ion-grid fixed>
+  <ion-row>
+    <ion-col size="12">
+      
+    </ion-col>
+  </ion-row>
+</ion-grid> -->
+
+<ion-tabs>
+  <ion-segment class="tab-container" scrollable>
+    <ion-segment-button *ngFor="let t of tabsIcons" class="tab-item">
+      <ion-icon name="{{t.icon}}"></ion-icon>
+      <p class="tab-text ion-text-capitalize ion-text-wrap">{{ t.title }}</p>
+    </ion-segment-button>
+
+
+  </ion-segment>
+</ion-tabs>

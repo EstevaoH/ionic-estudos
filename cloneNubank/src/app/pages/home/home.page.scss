@@ -1,0 +1,45 @@
+ion-icon{
+  font-size: 20px;
+  margin-right: 10px;
+}
+.content{
+  display: flex;
+  max-height: 400px;
+  z-index: 5;
+};
+
+.card{
+  display: flex;
+  background: #FFF;
+  border-radius: 4px;
+  margin: 0 20px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+};
+
+.subtitle{
+  font-size: 13px;
+  color: #999;
+};
+
+.description{
+  font-size: 21px;
+  margin-top: 3px;
+  color: #333;
+  font-weight: bold;
+} 
+
+.cardHeader{
+  margin-bottom: 15px;
+  // padding: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: 200;
+};
+
+.text-content{
+font-size: 12px;
+}
